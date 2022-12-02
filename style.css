@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Changa:wght@300&family=Cinzel&family=Cookie&family=EB+Garamond&family=IBM+Plex+Sans:ital,wght@0,100;1,100&family=Ibarra+Real+Nova:wght@400;500;700&family=Manrope:wght@300;400;700&family=Merienda+One&family=Montserrat:wght@200&family=Nunito+Sans:wght@200&family=Parisienne&family=Poppins:wght@200;300;400;500;600;700;800&family=Public+Sans:wght@100;200;400&family=Quicksand:wght@300;400;500;600&family=Raleway:wght@100;200;300;400;500&family=Roboto+Slab:wght@100&family=Satisfy&family=Smooch&family=Source+Serif+Pro:wght@200&family=Titillium+Web:wght@200;300&family=Vollkorn:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.header {
+  max-width: 100%;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 90px;
+  font-family: "Quicksand", sans-serif;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  margin: 0px 20px;
+}
+.header ul li a {
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+}
+.header h1 {
+  font-family: "Merienda One", cursive;
+}
+
+.head_div {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: "Merienda One", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 110px);
+}
+
+.hours {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+/*# sourceMappingURL=hours.css.map */
